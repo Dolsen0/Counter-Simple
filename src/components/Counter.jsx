@@ -9,7 +9,7 @@ function Counter(){
 
     return(
         <p>
-        <p>Count: {count}</p>
+        <p id = 'readout'>Count: {count}</p>
         <button id = "minusButton" onClick={minusClick}>Minus</button>
         <button id = "resetButton" onClick={resetClick}>Reset</button>
         <button id = "plusButton" onClick={plusClick}>Plus</button>
